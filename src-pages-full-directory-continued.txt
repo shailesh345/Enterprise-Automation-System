@@ -1,0 +1,378 @@
+├── Permissions/
+│   ├── index.tsx
+│   ├── PermissionList.tsx
+│   ├── PermissionDetail.tsx
+│   ├── PermissionSettings.tsx
+│   ├── components/
+│   │   ├── PermissionCard.tsx
+│   │   ├── PermissionExport.tsx
+│   │   └── PermissionStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── usePermissionList.ts
+│   │   ├── usePermissionDetail.ts
+│   │   ├── usePermissionSettings.ts
+│   │   └── usePermissionExport.ts
+│   ├── utils/
+│   │   ├── permissionUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── permission.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── permissionTypes.ts
+│       ├── permissionStatuses.ts
+│       └── permissionTags.ts
+│
+├── Contacts/
+│   ├── index.tsx
+│   ├── ContactList.tsx
+│   ├── ContactDetail.tsx
+│   ├── ContactSettings.tsx
+│   ├── components/
+│   │   ├── ContactCard.tsx
+│   │   ├── ContactExport.tsx
+│   │   └── ContactStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useContactList.ts
+│   │   ├── useContactDetail.ts
+│   │   ├── useContactSettings.ts
+│   │   └── useContactExport.ts
+│   ├── utils/
+│   │   ├── contactUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── contact.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── contactTypes.ts
+│       ├── contactStatuses.ts
+│       └── contactTags.ts
+│
+├── Templates/
+│   ├── index.tsx
+│   ├── TemplateList.tsx
+│   ├── TemplateDetail.tsx
+│   ├── TemplateSettings.tsx
+│   ├── components/
+│   │   ├── TemplateCard.tsx
+│   │   ├── TemplateExport.tsx
+│   │   └── TemplateStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useTemplateList.ts
+│   │   ├── useTemplateDetail.ts
+│   │   ├── useTemplateSettings.ts
+│   │   └── useTemplateExport.ts
+│   ├── utils/
+│   │   ├── templateUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── template.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── templateTypes.ts
+│       ├── templateStatuses.ts
+│       └── templateTags.ts
+│
+├── Localization/
+│   ├── index.tsx
+│   ├── LocalizationSettings.tsx
+│   ├── LanguageList.tsx
+│   ├── LanguageDetail.tsx
+│   ├── components/
+│   │   ├── LanguageCard.tsx
+│   │   ├── LocalizationExport.tsx
+│   │   └── LanguageStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useLocalizationSettings.ts
+│   │   ├── useLanguageList.ts
+│   │   ├── useLanguageDetail.ts
+│   │   └── useLocalizationExport.ts
+│   ├── utils/
+│   │   ├── localizationUtils.ts
+│   │   ├── languageUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── localization.ts
+│   │   ├── language.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── localizationTypes.ts
+│       ├── languageCodes.ts
+│       └── localizationTags.ts
+│
+├── Accessibility/
+│   ├── index.tsx
+│   ├── AccessibilitySettings.tsx
+│   ├── AccessibilityReport.tsx
+│   ├── components/
+│   │   ├── AccessibilityCard.tsx
+│   │   ├── AccessibilityExport.tsx
+│   │   └── AccessibilityStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useAccessibilitySettings.ts
+│   │   ├── useAccessibilityReport.ts
+│   │   └── useAccessibilityExport.ts
+│   ├── utils/
+│   │   ├── accessibilityUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── accessibility.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── accessibilityTypes.ts
+│       ├── accessibilityStatuses.ts
+│       └── accessibilityTags.ts
+│
+├── Error/
+│   ├── index.tsx
+│   ├── ErrorList.tsx
+│   ├── ErrorDetail.tsx
+│   ├── ErrorSettings.tsx
+│   ├── components/
+│   │   ├── ErrorCard.tsx
+│   │   ├── ErrorExport.tsx
+│   │   └── ErrorStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useErrorList.ts
+│   │   ├── useErrorDetail.ts
+│   │   ├── useErrorSettings.ts
+│   │   └── useErrorExport.ts
+│   ├── utils/
+│   │   ├── errorUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── error.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── errorTypes.ts
+│       ├── errorStatuses.ts
+│       └── errorTags.ts
+│
+├── Auth/
+│   ├── index.tsx
+│   ├── Login.tsx
+│   ├── Register.tsx
+│   ├── ForgotPassword.tsx
+│   ├── AuthSettings.tsx
+│   ├── components/
+│   │   ├── LoginForm.tsx
+│   │   ├── RegisterForm.tsx
+│   │   ├── ForgotPasswordForm.tsx
+│   │   ├── AuthExport.tsx
+│   │   └── AuthStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useLogin.ts
+│   │   ├── useRegister.ts
+│   │   ├── useForgotPassword.ts
+│   │   ├── useAuthSettings.ts
+│   │   └── useAuthExport.ts
+│   ├── utils/
+│   │   ├── authUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── auth.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── authTypes.ts
+│       ├── authStatuses.ts
+│       └── authTags.ts
+│
+├── Preferences/
+│   ├── index.tsx
+│   ├── PreferencesSettings.tsx
+│   ├── PreferencesExport.tsx
+│   ├── components/
+│   │   ├── PreferencesCard.tsx
+│   │   └── PreferencesStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── usePreferencesSettings.ts
+│   │   ├── usePreferencesExport.ts
+│   ├── utils/
+│   │   ├── preferencesUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── preferences.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── preferencesTypes.ts
+│       ├── preferencesStatuses.ts
+│       └── preferencesTags.ts
+│
+├── Calendar/
+│   ├── index.tsx
+│   ├── CalendarList.tsx
+│   ├── CalendarDetail.tsx
+│   ├── CalendarSettings.tsx
+│   ├── components/
+│   │   ├── CalendarCard.tsx
+│   │   ├── CalendarExport.tsx
+│   │   └── CalendarStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useCalendarList.ts
+│   │   ├── useCalendarDetail.ts
+│   │   ├── useCalendarSettings.ts
+│   │   └── useCalendarExport.ts
+│   ├── utils/
+│   │   ├── calendarUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── calendar.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── calendarTypes.ts
+│       ├── calendarStatuses.ts
+│       └── calendarTags.ts
+│
+├── Notifications/
+│   ├── index.tsx
+│   ├── NotificationsList.tsx
+│   ├── NotificationDetail.tsx
+│   ├── NotificationSettings.tsx
+│   ├── components/
+│   │   ├── NotificationCard.tsx
+│   │   ├── NotificationExport.tsx
+│   │   └── NotificationStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useNotificationsList.ts
+│   │   ├── useNotificationDetail.ts
+│   │   ├── useNotificationSettings.ts
+│   │   └── useNotificationExport.ts
+│   ├── utils/
+│   │   ├── notificationsUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── notification.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── notificationTypes.ts
+│       ├── notificationStatuses.ts
+│       └── notificationTags.ts
+│
+├── Tags/
+│   ├── index.tsx
+│   ├── TagList.tsx
+│   ├── TagDetail.tsx
+│   ├── TagSettings.tsx
+│   ├── components/
+│   │   ├── TagCard.tsx
+│   │   ├── TagExport.tsx
+│   │   └── TagStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useTagList.ts
+│   │   ├── useTagDetail.ts
+│   │   ├── useTagSettings.ts
+│   │   └── useTagExport.ts
+│   ├── utils/
+│   │   ├── tagUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── tag.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── tagTypes.ts
+│       ├── tagStatuses.ts
+│       └── tagTags.ts
+│
+├── Workflows/
+│   ├── index.tsx
+│   ├── WorkflowList.tsx
+│   ├── WorkflowDetail.tsx
+│   ├── WorkflowSettings.tsx
+│   ├── components/
+│   │   ├── WorkflowCard.tsx
+│   │   ├── WorkflowExport.tsx
+│   │   └── WorkflowStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useWorkflowList.ts
+│   │   ├── useWorkflowDetail.ts
+│   │   ├── useWorkflowSettings.ts
+│   │   └── useWorkflowExport.ts
+│   ├── utils/
+│   │   ├── workflowUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── workflow.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── workflowTypes.ts
+│       ├── workflowStatuses.ts
+│       └── workflowTags.ts
+│
+├── Tasks/
+│   ├── index.tsx
+│   ├── TaskList.tsx
+│   ├── TaskDetail.tsx
+│   ├── TaskSettings.tsx
+│   ├── components/
+│   │   ├── TaskCard.tsx
+│   │   ├── TaskExport.tsx
+│   │   └── TaskStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useTaskList.ts
+│   │   ├── useTaskDetail.ts
+│   │   ├── useTaskSettings.ts
+│   │   └── useTaskExport.ts
+│   ├── utils/
+│   │   ├── taskUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── task.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── taskTypes.ts
+│       ├── taskStatuses.ts
+│       └── taskTags.ts
+│
+├── Reminders/
+│   ├── index.tsx
+│   ├── ReminderList.tsx
+│   ├── ReminderDetail.tsx
+│   ├── ReminderSettings.tsx
+│   ├── components/
+│   │   ├── ReminderCard.tsx
+│   │   ├── ReminderExport.tsx
+│   │   └── ReminderStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useReminderList.ts
+│   │   ├── useReminderDetail.ts
+│   │   ├── useReminderSettings.ts
+│   │   └── useReminderExport.ts
+│   ├── utils/
+│   │   ├── reminderUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── reminder.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── reminderTypes.ts
+│       ├── reminderStatuses.ts
+│       └── reminderTags.ts
+│
+├── Activity/
+│   ├── index.tsx
+│   ├── ActivityList.tsx
+│   ├── ActivityDetail.tsx
+│   ├── ActivitySettings.tsx
+│   ├── components/
+│   │   ├── ActivityCard.tsx
+│   │   ├── ActivityExport.tsx
+│   │   └── ActivityStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useActivityList.ts
+│   │   ├── useActivityDetail.ts
+│   │   ├── useActivitySettings.ts
+│   │   └── useActivityExport.ts
+│   ├── utils/
+│   │   ├── activityUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── activity.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── activityTypes.ts
+│       ├── activityStatuses.ts
+│       └── activityTags.ts
+│
+
+# ... The directory continues with all remaining modules from your original parts and advanced additions.
+# Please reply "continue" to keep receiving the full merged structure.

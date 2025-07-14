@@ -1,0 +1,252 @@
+├── Security/
+│   ├── index.tsx
+│   ├── SecuritySettings.tsx
+│   ├── SecurityAudit.tsx
+│   ├── SecurityAnalytics.tsx
+│   ├── components/
+│   │   ├── SecurityCard.tsx
+│   │   ├── SecurityExport.tsx
+│   │   └── SecurityStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useSecuritySettings.ts
+│   │   ├── useSecurityAudit.ts
+│   │   └── useSecurityAnalytics.ts
+│   ├── utils/
+│   │   ├── securityUtils.ts
+│   │   ├── analyticsUtils.ts
+│   │   └── auditUtils.ts
+│   ├── types/
+│   │   ├── security.ts
+│   │   ├── audit.ts
+│   │   └── analytics.ts
+│   └── constants/
+│       ├── securityTypes.ts
+│       ├── auditTypes.ts
+│       └── securityStatuses.ts
+│
+├── Monitoring/
+│   ├── index.tsx
+│   ├── MonitoringDashboard.tsx
+│   ├── MonitoringDetail.tsx
+│   ├── MonitoringSettings.tsx
+│   ├── components/
+│   │   ├── MonitoringCard.tsx
+│   │   ├── MonitoringExport.tsx
+│   │   └── MonitoringStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useMonitoringDashboard.ts
+│   │   ├── useMonitoringDetail.ts
+│   │   ├── useMonitoringSettings.ts
+│   │   └── useMonitoringExport.ts
+│   ├── utils/
+│   │   ├── monitoringUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── monitoring.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── monitoringTypes.ts
+│       ├── monitoringStatuses.ts
+│       └── monitoringTags.ts
+│
+├── DevOps/
+│   ├── index.tsx
+│   ├── DevOpsDashboard.tsx
+│   ├── DevOpsPipeline.tsx
+│   ├── DevOpsSettings.tsx
+│   ├── components/
+│   │   ├── DevOpsCard.tsx
+│   │   ├── DevOpsExport.tsx
+│   │   └── DevOpsStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useDevOpsDashboard.ts
+│   │   ├── useDevOpsPipeline.ts
+│   │   ├── useDevOpsSettings.ts
+│   │   └── useDevOpsExport.ts
+│   ├── utils/
+│   │   ├── devOpsUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── devOps.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── devOpsTypes.ts
+│       ├── devOpsStatuses.ts
+│       └── devOpsTags.ts
+│
+├── Logs/
+│   ├── index.tsx
+│   ├── LogList.tsx
+│   ├── LogDetail.tsx
+│   ├── LogSettings.tsx
+│   ├── components/
+│   │   ├── LogCard.tsx
+│   │   ├── LogExport.tsx
+│   │   └── LogStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useLogList.ts
+│   │   ├── useLogDetail.ts
+│   │   ├── useLogSettings.ts
+│   │   └── useLogExport.ts
+│   ├── utils/
+│   │   ├── logUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── log.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── logTypes.ts
+│       ├── logStatuses.ts
+│       └── logTags.ts
+│
+├── Education/
+│   ├── index.tsx
+│   ├── CourseList.tsx
+│   ├── CourseDetail.tsx
+│   ├── EducationSettings.tsx
+│   ├── components/
+│   │   ├── CourseCard.tsx
+│   │   ├── EducationExport.tsx
+│   │   └── EducationStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useCourseList.ts
+│   │   ├── useCourseDetail.ts
+│   │   ├── useEducationSettings.ts
+│   │   └── useEducationExport.ts
+│   ├── utils/
+│   │   ├── educationUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── course.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── educationTypes.ts
+│       ├── educationStatuses.ts
+│       └── educationTags.ts
+│
+├── Integrations/
+│   ├── index.tsx
+│   ├── IntegrationList.tsx
+│   ├── IntegrationDetail.tsx
+│   ├── IntegrationSettings.tsx
+│   ├── components/
+│   │   ├── IntegrationCard.tsx
+│   │   ├── IntegrationExport.tsx
+│   │   └── IntegrationStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useIntegrationList.ts
+│   │   ├── useIntegrationDetail.ts
+│   │   ├── useIntegrationSettings.ts
+│   │   └── useIntegrationExport.ts
+│   ├── utils/
+│   │   ├── integrationUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── integration.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── integrationTypes.ts
+│       ├── integrationStatuses.ts
+│       └── integrationTags.ts
+│
+├── Settings/
+│   ├── index.tsx
+│   ├── GeneralSettings.tsx
+│   ├── UserSettings.tsx
+│   ├── AppSettings.tsx
+│   ├── components/
+│   │   ├── SettingsCard.tsx
+│   │   ├── SettingsExport.tsx
+│   │   └── SettingsStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useGeneralSettings.ts
+│   │   ├── useUserSettings.ts
+│   │   ├── useAppSettings.ts
+│   │   └── useSettingsExport.ts
+│   ├── utils/
+│   │   ├── settingsUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── settings.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── settingsTypes.ts
+│       ├── settingsStatuses.ts
+│       └── settingsTags.ts
+│
+├── ResourceManagement/
+│   ├── index.tsx
+│   ├── ResourceList.tsx
+│   ├── ResourceDetail.tsx
+│   ├── ResourceSettings.tsx
+│   ├── components/
+│   │   ├── ResourceCard.tsx
+│   │   ├── ResourceExport.tsx
+│   │   └── ResourceStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useResourceList.ts
+│   │   ├── useResourceDetail.ts
+│   │   ├── useResourceSettings.ts
+│   │   └── useResourceExport.ts
+│   ├── utils/
+│   │   ├── resourceUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── resource.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── resourceTypes.ts
+│       ├── resourceStatuses.ts
+│       └── resourceTags.ts
+│
+├── Compliance/
+│   ├── index.tsx
+│   ├── ComplianceAudit.tsx
+│   ├── ComplianceSettings.tsx
+│   ├── components/
+│   │   ├── ComplianceCard.tsx
+│   │   ├── ComplianceExport.tsx
+│   │   └── ComplianceStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useComplianceAudit.ts
+│   │   ├── useComplianceSettings.ts
+│   │   └── useComplianceExport.ts
+│   ├── utils/
+│   │   ├── complianceUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── compliance.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── complianceTypes.ts
+│       ├── complianceStatuses.ts
+│       └── complianceTags.ts
+│
+├── CustomPages/
+│   ├── index.tsx
+│   ├── CustomPageList.tsx
+│   ├── CustomPageDetail.tsx
+│   ├── CustomPageSettings.tsx
+│   ├── components/
+│   │   ├── CustomPageCard.tsx
+│   │   ├── CustomPageExport.tsx
+│   │   └── CustomPageStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useCustomPageList.ts
+│   │   ├── useCustomPageDetail.ts
+│   │   ├── useCustomPageSettings.ts
+│   │   └── useCustomPageExport.ts
+│   ├── utils/
+│   │   ├── customPageUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── customPage.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── customPageTypes.ts
+│       ├── customPageStatuses.ts
+│       └── customPageTags.ts
+│
+
+# ... The directory continues with all remaining modules from your original parts and advanced additions.
+# Please reply "continue" to keep receiving the full merged structure.

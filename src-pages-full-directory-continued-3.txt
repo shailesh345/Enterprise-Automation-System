@@ -1,0 +1,209 @@
+├── ABTesting/
+│   ├── index.tsx
+│   ├── ExperimentList.tsx
+│   ├── ExperimentDetail.tsx
+│   ├── CreateExperiment.tsx
+│   ├── ExperimentSettings.tsx
+│   ├── components/
+│   │   ├── ExperimentCard.tsx
+│   │   ├── VariantTable.tsx
+│   │   ├── ExperimentAnalytics.tsx
+│   │   └── ExperimentExport.tsx
+│   ├── hooks/
+│   │   ├── useExperiments.ts
+│   │   ├── useExperimentDetail.ts
+│   │   ├── useExperimentAnalytics.ts
+│   │   └── useExperimentSettings.ts
+│   ├── utils/
+│   │   ├── abTestingUtils.ts
+│   │   ├── variantUtils.ts
+│   │   └── analyticsUtils.ts
+│   ├── types/
+│   │   ├── experiment.ts
+│   │   ├── variant.ts
+│   │   └── analytics.ts
+│   └── constants/
+│       ├── experimentTypes.ts
+│       ├── variantTypes.ts
+│       └── experimentStatuses.ts
+│
+├── Gamification/
+│   ├── index.tsx
+│   ├── Badges.tsx
+│   ├── Leaderboard.tsx
+│   ├── Achievements.tsx
+│   ├── GamificationSettings.tsx
+│   ├── components/
+│   │   ├── BadgeCard.tsx
+│   │   ├── LeaderboardTable.tsx
+│   │   ├── AchievementList.tsx
+│   │   └── GamificationExport.tsx
+│   ├── hooks/
+│   │   ├── useBadges.ts
+│   │   ├── useLeaderboard.ts
+│   │   ├── useAchievements.ts
+│   │   └── useGamificationSettings.ts
+│   ├── utils/
+│   │   ├── gamificationUtils.ts
+│   │   ├── badgeUtils.ts
+│   │   └── achievementUtils.ts
+│   ├── types/
+│   │   ├── badge.ts
+│   │   ├── leaderboard.ts
+│   │   └── achievement.ts
+│   └── constants/
+│       ├── badgeTypes.ts
+│       ├── leaderboardTypes.ts
+│       └── achievementCategories.ts
+│
+├── UserGroups/
+│   ├── index.tsx
+│   ├── GroupList.tsx
+│   ├── GroupDetail.tsx
+│   ├── CreateGroup.tsx
+│   ├── GroupSettings.tsx
+│   ├── components/
+│   │   ├── GroupCard.tsx
+│   │   ├── GroupMemberTable.tsx
+│   │   ├── GroupExport.tsx
+│   │   └── GroupStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useGroups.ts
+│   │   ├── useGroupDetail.ts
+│   │   ├── useGroupSettings.ts
+│   │   └── useGroupExport.ts
+│   ├── utils/
+│   │   ├── groupUtils.ts
+│   │   ├── memberUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── group.ts
+│   │   ├── member.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── groupTypes.ts
+│       ├── groupStatuses.ts
+│       └── groupRoles.ts
+│
+├── SSO/
+│   ├── index.tsx
+│   ├── SAMLSettings.tsx
+│   ├── OAuthSettings.tsx
+│   ├── SSOProviderList.tsx
+│   ├── SSOLogs.tsx
+│   ├── components/
+│   │   ├── SSOProviderCard.tsx
+│   │   ├── SSOSettingsForm.tsx
+│   │   ├── SSOStatusBadge.tsx
+│   │   └── SSOLogTable.tsx
+│   ├── hooks/
+│   │   ├── useSAMLSettings.ts
+│   │   ├── useOAuthSettings.ts
+│   │   ├── useSSOProviderList.ts
+│   │   └── useSSOLogs.ts
+│   ├── utils/
+│   │   ├── ssoUtils.ts
+│   │   ├── samlUtils.ts
+│   │   └── oauthUtils.ts
+│   ├── types/
+│   │   ├── ssoProvider.ts
+│   │   ├── saml.ts
+│   │   ├── oauth.ts
+│   │   └── ssoLog.ts
+│   └── constants/
+│       ├── ssoProviderTypes.ts
+│       ├── ssoStatuses.ts
+│       └── ssoLogEvents.ts
+│
+├── DataScience/
+│   ├── index.tsx
+│   ├── ModelList.tsx
+│   ├── ModelDetail.tsx
+│   ├── Predictions.tsx
+│   ├── DataScienceSettings.tsx
+│   ├── components/
+│   │   ├── ModelCard.tsx
+│   │   ├── PredictionChart.tsx
+│   │   ├── ModelExport.tsx
+│   │   └── DataScienceStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useModels.ts
+│   │   ├── useModelDetail.ts
+│   │   ├── usePredictions.ts
+│   │   └── useDataScienceSettings.ts
+│   ├── utils/
+│   │   ├── modelUtils.ts
+│   │   ├── predictionUtils.ts
+│   │   └── dataScienceUtils.ts
+│   ├── types/
+│   │   ├── model.ts
+│   │   ├── prediction.ts
+│   │   └── dataScience.ts
+│   └── constants/
+│       ├── modelTypes.ts
+│       ├── predictionTypes.ts
+│       └── dataScienceTags.ts
+│
+├── RealTimeCollaboration/
+│   ├── index.tsx
+│   ├── LiveDocuments.tsx
+│   ├── LiveBoard.tsx
+│   ├── CollaborationSettings.tsx
+│   ├── components/
+│   │   ├── LiveCursor.tsx
+│   │   ├── CollaborationSidebar.tsx
+│   │   ├── PresenceList.tsx
+│   │   ├── CollaborationExport.tsx
+│   │   └── LiveChatPanel.tsx
+│   ├── hooks/
+│   │   ├── useLiveDocuments.ts
+│   │   ├── useLiveBoard.ts
+│   │   ├── useCollaborationSettings.ts
+│   │   └── usePresence.ts
+│   ├── utils/
+│   │   ├── collaborationUtils.ts
+│   │   ├── presenceUtils.ts
+│   │   └── liveUtils.ts
+│   ├── types/
+│   │   ├── liveDocument.ts
+│   │   ├── liveBoard.ts
+│   │   ├── presence.ts
+│   │   └── collaboration.ts
+│   └── constants/
+│       ├── collaborationEvents.ts
+│       ├── presenceStatuses.ts
+│       └── liveBoardTypes.ts
+│
+├── AdvancedSearch/
+│   ├── index.tsx
+│   ├── SearchPage.tsx
+│   ├── FilterPanel.tsx
+│   ├── SavedSearches.tsx
+│   ├── SearchSettings.tsx
+│   ├── components/
+│   │   ├── SearchBar.tsx
+│   │   ├── ResultList.tsx
+│   │   ├── FilterTag.tsx
+│   │   ├── SearchExport.tsx
+│   │   └── SearchStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useAdvancedSearch.ts
+│   │   ├── useSavedSearches.ts
+│   │   ├── useFilterPanel.ts
+│   │   └── useSearchSettings.ts
+│   ├── utils/
+│   │   ├── searchUtils.ts
+│   │   ├── filterUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── search.ts
+│   │   ├── filter.ts
+│   │   └── savedSearch.ts
+│   └── constants/
+│       ├── searchTypes.ts
+│       ├── filterTypes.ts
+│       └── searchStatuses.ts
+│
+
+# ... The directory continues with all remaining modules, including IoT, MarketingAutomation, Diagnostics, Sandbox, CustomThemes, MultiLanguageCMS, CustomerSuccess, APIRateLimiting, NotificationChannels, AgenticAIBuilder, AutomationFlowBuilder, SocialMessengerAutoReply, etc.
+# Please reply "continue" to keep receiving the full merged structure.

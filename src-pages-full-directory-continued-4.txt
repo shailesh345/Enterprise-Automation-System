@@ -1,0 +1,356 @@
+├── IoT/
+│   ├── index.tsx
+│   ├── DeviceList.tsx
+│   ├── DeviceDetail.tsx
+│   ├── IoTSettings.tsx
+│   ├── components/
+│   │   ├── IoTDeviceCard.tsx
+│   │   ├── IoTStatusBadge.tsx
+│   │   ├── IoTExport.tsx
+│   │   └── IoTLog.tsx
+│   ├── hooks/
+│   │   ├── useIoTDevices.ts
+│   │   ├── useDeviceDetail.ts
+│   │   ├── useIoTSettings.ts
+│   │   └── useIoTLogs.ts
+│   ├── utils/
+│   │   ├── iotUtils.ts
+│   │   ├── deviceUtils.ts
+│   │   └── logUtils.ts
+│   ├── types/
+│   │   ├── iotDevice.ts
+│   │   ├── iotLog.ts
+│   │   └── iotSettings.ts
+│   └── constants/
+│       ├── deviceTypes.ts
+│       ├── iotStatuses.ts
+│       └── iotEvents.ts
+│
+├── MarketingAutomation/
+│   ├── index.tsx
+│   ├── CampaignList.tsx
+│   ├── CampaignDetail.tsx
+│   ├── EmailSequences.tsx
+│   ├── MarketingAutomationSettings.tsx
+│   ├── components/
+│   │   ├── CampaignCard.tsx
+│   │   ├── SequenceTable.tsx
+│   │   ├── MarketingExport.tsx
+│   │   └── CampaignStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useCampaigns.ts
+│   │   ├── useSequences.ts
+│   │   ├── useMarketingAutomationSettings.ts
+│   │   └── useCampaignDetail.ts
+│   ├── utils/
+│   │   ├── marketingAutomationUtils.ts
+│   │   ├── campaignUtils.ts
+│   │   └── sequenceUtils.ts
+│   ├── types/
+│   │   ├── campaign.ts
+│   │   ├── sequence.ts
+│   │   └── marketingAutomation.ts
+│   └── constants/
+│       ├── campaignTypes.ts
+│       ├── sequenceStages.ts
+│       └── marketingTags.ts
+│
+├── Diagnostics/
+│   ├── index.tsx
+│   ├── DebugTools.tsx
+│   ├── DiagnosticLogs.tsx
+│   ├── DiagnosticsSettings.tsx
+│   ├── components/
+│   │   ├── DebugPanel.tsx
+│   │   ├── DiagnosticExport.tsx
+│   │   ├── DiagnosticStatusBadge.tsx
+│   │   └── DiagnosticLogTable.tsx
+│   ├── hooks/
+│   │   ├── useDebugTools.ts
+│   │   ├── useDiagnosticLogs.ts
+│   │   ├── useDiagnosticsSettings.ts
+│   │   └── useDiagnosticExport.ts
+│   ├── utils/
+│   │   ├── diagnosticsUtils.ts
+│   │   ├── debugUtils.ts
+│   │   └── logUtils.ts
+│   ├── types/
+│   │   ├── diagnostic.ts
+│   │   ├── debug.ts
+│   │   └── diagnosticLog.ts
+│   └── constants/
+│       ├── diagnosticTypes.ts
+│       ├── debugTypes.ts
+│       └── diagnosticStatuses.ts
+│
+├── Sandbox/
+│   ├── index.tsx
+│   ├── PreviewEnvironments.tsx
+│   ├── SandboxSettings.tsx
+│   ├── components/
+│   │   ├── PreviewCard.tsx
+│   │   ├── SandboxExport.tsx
+│   │   ├── SandboxStatusBadge.tsx
+│   │   └── PreviewTimeline.tsx
+│   ├── hooks/
+│   │   ├── usePreviewEnvironments.ts
+│   │   ├── useSandboxSettings.ts
+│   │   └── usePreviewTimeline.ts
+│   ├── utils/
+│   │   ├── sandboxUtils.ts
+│   │   ├── previewUtils.ts
+│   │   └── timelineUtils.ts
+│   ├── types/
+│   │   ├── sandbox.ts
+│   │   ├── previewEnvironment.ts
+│   │   └── timeline.ts
+│   └── constants/
+│       ├── previewTypes.ts
+│       ├── sandboxStatuses.ts
+│       └── previewTags.ts
+│
+├── CustomThemes/
+│   ├── index.tsx
+│   ├── ThemeGallery.tsx
+│   ├── ThemeEditor.tsx
+│   ├── ThemeSettings.tsx
+│   ├── components/
+│   │   ├── ThemeCard.tsx
+│   │   ├── ThemePreview.tsx
+│   │   ├── ThemeExport.tsx
+│   │   └── ThemeStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useThemes.ts
+│   │   ├── useThemeEditor.ts
+│   │   └── useThemeSettings.ts
+│   ├── utils/
+│   │   ├── themeUtils.ts
+│   │   └── previewUtils.ts
+│   ├── types/
+│   │   ├── theme.ts
+│   │   └── preview.ts
+│   └── constants/
+│       ├── themeTypes.ts
+│       ├── themeStatuses.ts
+│       └── themeTags.ts
+│
+├── MultiLanguageCMS/
+│   ├── index.tsx
+│   ├── ContentList.tsx
+│   ├── ContentEditor.tsx
+│   ├── LanguageSettings.tsx
+│   ├── components/
+│   │   ├── ContentCard.tsx
+│   │   ├── LanguageSwitcher.tsx
+│   │   ├── ContentExport.tsx
+│   │   └── ContentStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useContent.ts
+│   │   ├── useContentEditor.ts
+│   │   ├── useLanguageSettings.ts
+│   │   └── useLanguageSwitcher.ts
+│   ├── utils/
+│   │   ├── contentUtils.ts
+│   │   ├── languageUtils.ts
+│   │   └── exportUtils.ts
+│   ├── types/
+│   │   ├── content.ts
+│   │   ├── language.ts
+│   │   └── status.ts
+│   └── constants/
+│       ├── contentTypes.ts
+│       ├── languageCodes.ts
+│       └── contentStatuses.ts
+│
+├── CustomerSuccess/
+│   ├── index.tsx
+│   ├── RetentionDashboard.tsx
+│   ├── SuccessPlaybooks.tsx
+│   ├── CustomerJourney.tsx
+│   ├── SuccessSettings.tsx
+│   ├── components/
+│   │   ├── JourneyTimeline.tsx
+│   │   ├── PlaybookCard.tsx
+│   │   ├── RetentionChart.tsx
+│   │   └── SuccessExport.tsx
+│   ├── hooks/
+│   │   ├── useRetentionDashboard.ts
+│   │   ├── useSuccessPlaybooks.ts
+│   │   ├── useCustomerJourney.ts
+│   │   └── useSuccessSettings.ts
+│   ├── utils/
+│   │   ├── customerSuccessUtils.ts
+│   │   ├── retentionUtils.ts
+│   │   └── playbookUtils.ts
+│   ├── types/
+│   │   ├── customerJourney.ts
+│   │   ├── retention.ts
+│   │   └── playbook.ts
+│   └── constants/
+│       ├── journeyStages.ts
+│       ├── successMetrics.ts
+│       └── retentionTypes.ts
+│
+├── APIRateLimiting/
+│   ├── index.tsx
+│   ├── RateLimitDashboard.tsx
+│   ├── RateLimitRules.tsx
+│   ├── RateLimitLogs.tsx
+│   ├── RateLimitSettings.tsx
+│   ├── components/
+│   │   ├── RateLimitChart.tsx
+│   │   ├── RateLimitRuleForm.tsx
+│   │   ├── RateLimitLogTable.tsx
+│   │   └── RateLimitStatusBadge.tsx
+│   ├── hooks/
+│   │   ├── useRateLimitDashboard.ts
+│   │   ├── useRateLimitRules.ts
+│   │   ├── useRateLimitLogs.ts
+│   │   └── useRateLimitSettings.ts
+│   ├── utils/
+│   │   ├── rateLimitUtils.ts
+│   │   ├── ruleUtils.ts
+│   │   └── logUtils.ts
+│   ├── types/
+│   │   ├── rateLimit.ts
+│   │   ├── rule.ts
+│   │   └── log.ts
+│   └── constants/
+│       ├── rateLimitTypes.ts
+│       ├── ruleCategories.ts
+│       └── rateLimitStatuses.ts
+│
+├── NotificationChannels/
+│   ├── index.tsx
+│   ├── ChannelList.tsx
+│   ├── ChannelSettings.tsx
+│   ├── ChannelHistory.tsx
+│   ├── components/
+│   │   ├── ChannelCard.tsx
+│   │   ├── ChannelExport.tsx
+│   │   ├── ChannelStatusBadge.tsx
+│   │   └── ChannelLog.tsx
+│   ├── hooks/
+│   │   ├── useChannels.ts
+│   │   ├── useChannelSettings.ts
+│   │   ├── useChannelHistory.ts
+│   │   └── useChannelLog.ts
+│   ├── utils/
+│   │   ├── channelUtils.ts
+│   │   ├── historyUtils.ts
+│   │   └── logUtils.ts
+│   ├── types/
+│   │   ├── channel.ts
+│   │   ├── channelHistory.ts
+│   │   └── channelLog.ts
+│   └── constants/
+│       ├── channelTypes.ts
+│       ├── channelStatuses.ts
+│       └── channelEvents.ts
+│
+├── AgenticAIBuilder/
+│   ├── index.tsx
+│   ├── AgentList.tsx
+│   ├── AgentConfig.tsx
+│   ├── AgentDashboard.tsx
+│   ├── AgentExecution.tsx
+│   ├── components/
+│   │   ├── AgentCard.tsx
+│   │   ├── AgentSettingsForm.tsx
+│   │   ├── AgentFlowPreview.tsx
+│   │   └── AgentExport.tsx
+│   ├── hooks/
+│   │   ├── useAgents.ts
+│   │   ├── useAgentConfig.ts
+│   │   ├── useAgentExecution.ts
+│   │   └── useAgentDashboard.ts
+│   ├── utils/
+│   │   ├── agentUtils.ts
+│   │   ├── flowUtils.ts
+│   │   └── executionUtils.ts
+│   ├── types/
+│   │   ├── agent.ts
+│   │   ├── flow.ts
+│   │   ├── execution.ts
+│   │   └── settings.ts
+│   └── constants/
+│       ├── agentTypes.ts
+│       ├── agentStatuses.ts
+│       └── agentTags.ts
+│
+├── AutomationFlowBuilder/
+│   ├── index.tsx
+│   ├── FlowList.tsx
+│   ├── FlowDesigner.tsx
+│   ├── FlowExecution.tsx
+│   ├── FlowTriggers.tsx
+│   ├── FlowActions.tsx
+│   ├── AutomationSettings.tsx
+│   ├── components/
+│   │   ├── FlowCard.tsx
+│   │   ├── FlowDesignerCanvas.tsx
+│   │   ├── TriggerConfig.tsx
+│   │   ├── ActionConfig.tsx
+│   │   └── AutomationExport.tsx
+│   ├── hooks/
+│   │   ├── useFlows.ts
+│   │   ├── useFlowDesigner.ts
+│   │   ├── useFlowExecution.ts
+│   │   ├── useFlowTriggers.ts
+│   │   └── useFlowActions.ts
+│   ├── utils/
+│   │   ├── flowBuilderUtils.ts
+│   │   ├── triggerUtils.ts
+│   │   ├── actionUtils.ts
+│   │   └── automationUtils.ts
+│   ├── types/
+│   │   ├── flow.ts
+│   │   ├── trigger.ts
+│   │   ├── action.ts
+│   │   └── automation.ts
+│   └── constants/
+│       ├── flowTypes.ts
+│       ├── triggerTypes.ts
+│       ├── actionTypes.ts
+│       └── automationStatuses.ts
+│
+├── SocialMessengerAutoReply/
+│   ├── index.tsx
+│   ├── MessengerPlatforms.tsx
+│   ├── AutoReplyDashboard.tsx
+│   ├── AutoReplySettings.tsx
+│   ├── FacebookMessengerAutoReply.tsx
+│   ├── WhatsAppAutoReply.tsx
+│   ├── InstagramDMAutoReply.tsx
+│   ├── TelegramAutoReply.tsx
+│   ├── components/
+│   │   ├── PlatformCard.tsx
+│   │   ├── AutoReplyForm.tsx
+│   │   ├── AutoReplyHistory.tsx
+│   │   ├── MessengerStatusBadge.tsx
+│   │   └── AutoReplyExport.tsx
+│   ├── hooks/
+│   │   ├── useMessengerPlatforms.ts
+│   │   ├── useAutoReplyDashboard.ts
+│   │   ├── useAutoReplySettings.ts
+│   │   ├── useFacebookMessengerAutoReply.ts
+│   │   ├── useWhatsAppAutoReply.ts
+│   │   ├── useInstagramDMAutoReply.ts
+│   │   └── useTelegramAutoReply.ts
+│   ├── utils/
+│   │   ├── autoReplyUtils.ts
+│   │   ├── messengerUtils.ts
+│   │   ├── facebookUtils.ts
+│   │   ├── whatsappUtils.ts
+│   │   ├── instagramUtils.ts
+│   │   └── telegramUtils.ts
+│   ├── types/
+│   │   ├── platform.ts
+│   │   ├── autoReply.ts
+│   │   ├── message.ts
+│   │   └── settings.ts
+│   └── constants/
+│       ├── platformTypes.ts
+│       ├── autoReplyTypes.ts
+│       ├── autoReplyStatuses.ts
+│       └── messengerTags.ts

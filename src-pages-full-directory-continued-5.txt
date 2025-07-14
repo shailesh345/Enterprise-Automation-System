@@ -1,0 +1,109 @@
+├── AgenticAIBuilder/
+│   ├── index.tsx
+│   ├── AgentList.tsx
+│   ├── AgentConfig.tsx
+│   ├── AgentDashboard.tsx
+│   ├── AgentExecution.tsx
+│   ├── components/
+│   │   ├── AgentCard.tsx
+│   │   ├── AgentSettingsForm.tsx
+│   │   ├── AgentFlowPreview.tsx
+│   │   └── AgentExport.tsx
+│   ├── hooks/
+│   │   ├── useAgents.ts
+│   │   ├── useAgentConfig.ts
+│   │   ├── useAgentExecution.ts
+│   │   └── useAgentDashboard.ts
+│   ├── utils/
+│   │   ├── agentUtils.ts
+│   │   ├── flowUtils.ts
+│   │   └── executionUtils.ts
+│   ├── types/
+│   │   ├── agent.ts
+│   │   ├── flow.ts
+│   │   ├── execution.ts
+│   │   └── settings.ts
+│   └── constants/
+│       ├── agentTypes.ts
+│       ├── agentStatuses.ts
+│       └── agentTags.ts
+│
+├── AutomationFlowBuilder/
+│   ├── index.tsx
+│   ├── FlowList.tsx
+│   ├── FlowDesigner.tsx
+│   ├── FlowExecution.tsx
+│   ├── FlowTriggers.tsx
+│   ├── FlowActions.tsx
+│   ├── AutomationSettings.tsx
+│   ├── components/
+│   │   ├── FlowCard.tsx
+│   │   ├── FlowDesignerCanvas.tsx
+│   │   ├── TriggerConfig.tsx
+│   │   ├── ActionConfig.tsx
+│   │   └── AutomationExport.tsx
+│   ├── hooks/
+│   │   ├── useFlows.ts
+│   │   ├── useFlowDesigner.ts
+│   │   ├── useFlowExecution.ts
+│   │   ├── useFlowTriggers.ts
+│   │   └── useFlowActions.ts
+│   ├── utils/
+│   │   ├── flowBuilderUtils.ts
+│   │   ├── triggerUtils.ts
+│   │   ├── actionUtils.ts
+│   │   └── automationUtils.ts
+│   ├── types/
+│   │   ├── flow.ts
+│   │   ├── trigger.ts
+│   │   ├── action.ts
+│   │   └── automation.ts
+│   └── constants/
+│       ├── flowTypes.ts
+│       ├── triggerTypes.ts
+│       ├── actionTypes.ts
+│       └── automationStatuses.ts
+│
+├── SocialMessengerAutoReply/
+│   ├── index.tsx
+│   ├── MessengerPlatforms.tsx
+│   ├── AutoReplyDashboard.tsx
+│   ├── AutoReplySettings.tsx
+│   ├── FacebookMessengerAutoReply.tsx
+│   ├── WhatsAppAutoReply.tsx
+│   ├── InstagramDMAutoReply.tsx
+│   ├── TelegramAutoReply.tsx
+│   ├── components/
+│   │   ├── PlatformCard.tsx
+│   │   ├── AutoReplyForm.tsx
+│   │   ├── AutoReplyHistory.tsx
+│   │   ├── MessengerStatusBadge.tsx
+│   │   └── AutoReplyExport.tsx
+│   ├── hooks/
+│   │   ├── useMessengerPlatforms.ts
+│   │   ├── useAutoReplyDashboard.ts
+│   │   ├── useAutoReplySettings.ts
+│   │   ├── useFacebookMessengerAutoReply.ts
+│   │   ├── useWhatsAppAutoReply.ts
+│   │   ├── useInstagramDMAutoReply.ts
+│   │   └── useTelegramAutoReply.ts
+│   ├── utils/
+│   │   ├── autoReplyUtils.ts
+│   │   ├── messengerUtils.ts
+│   │   ├── facebookUtils.ts
+│   │   ├── whatsappUtils.ts
+│   │   ├── instagramUtils.ts
+│   │   └── telegramUtils.ts
+│   ├── types/
+│   │   ├── platform.ts
+│   │   ├── autoReply.ts
+│   │   ├── message.ts
+│   │   └── settings.ts
+│   └── constants/
+│       ├── platformTypes.ts
+│       ├── autoReplyTypes.ts
+│       ├── autoReplyStatuses.ts
+│       └── messengerTags.ts
+│
+# ... This completes the full merged directory structure from all your parts and additions.
+# You now have a single, exhaustive directory structure for your enterprise AI, automation, and social messaging platform.
